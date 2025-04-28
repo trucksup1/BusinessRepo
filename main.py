@@ -8,7 +8,7 @@ import time
 # Set up the desired capabilities for Appium
 options = UiAutomator2Options()
 options.platform_name = "Android"
-options.platform_version = "10"
+options.platform_version = "9"
 options.device_name = "OnePlus 6T"
 options.app_package = "com.trucksup.field_officer"  # Field Officer app package
 options.app_activity = ".activities.LoginActivity"  # Activity name for Field Officer login screen
